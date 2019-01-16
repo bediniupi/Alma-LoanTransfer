@@ -1,4 +1,5 @@
 # Alma-LoanTransfer
+This script is inspired by this Alma developers tech blog post: [1]
 Bulk transfer loans from a user to another user with Alma Offline circulation
 Create one or more .dat files to upload in Alma Offline Circulation tool [2]
 
@@ -20,8 +21,8 @@ No installation needed, simply download loantransfer.py in a rw directory.
 In the ini-section add your institution Alma api key and api server baseurl [3].
 
 ## Prerequisites
-Python v 2.7, modules requests, time, datetime, xml.etree 
-Alma Ex Libris 
+* Python v 2.7, modules requests, time, datetime, xml.etree 
+* Alma Ex Libris 
 
 ## Authors
 * **Nazzareno Bedini - University of Pisa**
