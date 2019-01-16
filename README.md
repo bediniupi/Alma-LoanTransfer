@@ -20,7 +20,7 @@ No installation needed, simply download loantransfer.py in a rw directory.
 In the ini-section add your institution Alma api key and api server baseurl [3].
 
 ## Prerequisites
-Python v 2.7 and , modules requests, time, datetime, xml.etree 
+Python v 2.7, modules requests, time, datetime, xml.etree 
 Alma Ex Libris 
 
 ## Authors
