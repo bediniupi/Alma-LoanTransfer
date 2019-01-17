@@ -23,7 +23,10 @@ usage_text = "Usage:\npython loantransfer.py user_id_from user_id_to\npython loa
 
 # return a xml object from web api
 def get_xmlobj(api_url):
-    response = requests.get(api_url)
+    try:
+        response = requests.get(api_url)
+    except requests.exceptions.RequestException as e:  
+        sys.exit("Error on api get info, please check you connection and retry:\n" + str(e))
     response_obj = ElementTree.fromstring(response.content)
     return response_obj
 
@@ -87,6 +90,7 @@ for item_loan in loans_obj.iter("item_loan") :
 # if user_from has no active loans, exit
 if loan_count == 0 :
     sys.exit("No user loans found in Alma")
+print ("Found " + str(loan_count) + " loans to transfer")
 
 # create a .dat file for every library/circ desk (you have to upload it on the proper circulation desk in Alma)
 for key_lib, value in r_offline_circ.items():
