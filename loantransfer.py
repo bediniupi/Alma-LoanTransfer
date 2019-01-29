@@ -15,7 +15,7 @@ from xml.etree import ElementTree
 from datetime import datetime, timedelta
 
 # ini section: give your api key and api server as indicated in https://developers.exlibrisgroup.com/alma/apis
-api_user_key = "[institution api key]";
+api_user_key = "[institution user api key]";
 api_baseurl = "https://api-eu.hosted.exlibrisgroup.com";
 # if you want you can personalize here the basename of .dat file 
 basename_datfile = "LoanTransfer_"
