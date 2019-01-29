@@ -31,6 +31,6 @@ In the ini-section add your institution Alma user API key and API server baseurl
 * **Nazzareno Bedini - University of Pisa**
 
 ## Acknowledgments
-* \[1\] [Alma Bulk Loan Transfer Using Analytics and Offline Circ](https://developers.exlibrisgroup.com/blog/Alma-Bulk-Loan-Transfer-Using-Analytics-and-Offline-Circ) - the script is inspired by this Alma developers tech blog post;
-* \[2\] [Offline Circulation ](https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/030Fulfillment/070Advanced_Tools/060Offline_Circulation);
+* \[1\] [Alma Bulk Loan Transfer Using Analytics and Offline Circ](https://developers.exlibrisgroup.com/blog/Alma-Bulk-Loan-Transfer-Using-Analytics-and-Offline-Circ). The script is inspired by this Alma developers tech blog post.
+* \[2\] [Offline Circulation ](https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/030Fulfillment/070Advanced_Tools/060Offline_Circulation). Alma Offline Circulation Tool.
 * \[3\] [General info to start to works with Alma's APIs](https://developers.exlibrisgroup.com/alma/apis) - HowTo obtain the API key for your environment.
